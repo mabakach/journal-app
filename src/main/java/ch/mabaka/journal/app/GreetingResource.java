@@ -12,7 +12,7 @@ import org.jboss.resteasy.annotations.jaxrs.PathParam;
 public class GreetingResource {
 
 	@Inject
-	private GreetingService greetingService;
+	GreetingService greetingService;
 	
 	@GET
     @Produces(MediaType.TEXT_PLAIN)
