@@ -1,4 +1,4 @@
-package ch.mabaka.jpurnal.app;
+package ch.mabaka.journal.app;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
